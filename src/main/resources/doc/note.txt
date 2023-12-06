@@ -1,0 +1,43 @@
+
+oracle jmf主页：
+https://www.oracle.com/java/technologies/javase/java-media-framework.html
+oracle jmf mp3插件：
+http://hk.javashuo.com/article/p-fvkxlses-gh.html
+
+音乐播放器参考：
+https://blog.csdn.net/m0_74288422/article/details/130651659
+
+图形界面参考：
+https://blog.csdn.net/yan_kai/article/details/52690491 （参考按钮监听事件）
+https://blog.csdn.net/jjsr2002/article/details/129265130 （参考进度条音量等）
+
+图标参考（播放图标大小64）：
+https://www.iconfont.cn/collections/detail?spm=a313x.7781069.1998910419.d9df05512&cid=22159
+https://www.iconfont.cn/collections/index?spm=a313x.7781069.1998910419.89&keyword=%E6%92%AD%E6%94%BE&page=1
+
+
+<!-- lombok 非必要 -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.24</version>
+    <scope>provided</scope>
+</dependency>
+
+<!-- Java Media Framework JAVA媒体框架 -->
+<dependency>
+	<groupId>javax.media</groupId>
+	<artifactId>jmf</artifactId>
+	<version>2.1.1e</version>
+</dependency>
+
+
+
+播放音乐
+图形界面
+
+
+./src/main/resources/audio/花海.wav
+./src/main/resources/audio/浪漫手机.wav
+./src/main/resources/audio/七里香.wav
+./src/main/resources/audio/珊瑚海.wav
